@@ -14,5 +14,6 @@ labels:
   io.k8s.display-name: Openshift Installer
   io.openshift.tags: openshift,installer
   vendor: Red Hat
+mode: disable
 name: openshift3/ose-ansible
 owners: []
