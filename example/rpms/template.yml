@@ -20,3 +20,4 @@ content:
     # Only specify if there are more than one spec files int the path.
     ## specfile: myutil.spec
 
+mode: wip
