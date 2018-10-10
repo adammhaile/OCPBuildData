@@ -2,6 +2,8 @@
 #    *review myutil-base.yml  before reading this*
 # How we should find a Dockerfile in a GitHub repo and build it for an OCP release.
 
+mode: wip  # new configs default to Work In Progress mode
+
 # Information about the dist-git repo
 distgit:
   namespace: containers   # default is "containers", but can be set to "apbs" for new dist-git repo type
