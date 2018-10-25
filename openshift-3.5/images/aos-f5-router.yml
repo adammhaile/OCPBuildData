@@ -14,4 +14,4 @@ labels:
   vendor: Red Hat
 name: openshift3/ose-f5-router
 owners: []
-mode: wip
+mode: disable
