@@ -1,11 +1,13 @@
 content:
   source:
     alias: kubernetes-autoscaler
-    path: images/cluster-autoscaler
     modifications:
-      - action: replace
-        match: "origin-cluster-autoscaler"
-        replacement: "atomic-openshift-cluster-autoscaler"
+    - action: replace
+      match: origin-cluster-autoscaler
+      replacement: atomic-openshift-cluster-autoscaler
+    path: images/cluster-autoscaler
+distgit:
+  namespace: containers
 enabled_repos:
 - rhel-server-ose-rpms
 from:
@@ -17,8 +19,7 @@ labels:
   io.k8s.display-name: OpenShift Container Platform Cluster Autoscaler
   io.openshift.tags: openshift,autoscaler
   vendor: Red Hat
+mode: wip
 name: openshift3/ose-cluster-autoscaler
 owners:
-  - avagarwa@redhat.com
-distgit:
-  namespace: containers
+- avagarwa@redhat.com
