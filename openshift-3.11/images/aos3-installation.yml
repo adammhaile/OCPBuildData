@@ -19,3 +19,4 @@ labels:
   io.openshift.tags: openshift,install,upgrade,ansible
   vendor: Red Hat
 name: openshift3/ose-ansible
+mode: wip
